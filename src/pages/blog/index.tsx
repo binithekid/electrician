@@ -61,7 +61,7 @@ const Blog = ({ posts }: any) => {
         <title>Blog | Spark Electrics</title>
         <meta
           name="description"
-          content="Discover expert plumbing tips, industry insights, and essential advice for homeowners in London on our blog. From tackling common plumbing issues to finding reliable local electricians, unlock the knowledge you need to keep your home in top shape. Trust our London-based plumbing expertise to solve your plumbing problems efficiently and effectively."
+          content="Discover expert electrical tips, industry insights, and essential advice for homeowners in London on our blog. From tackling common electrical issues to finding reliable local electricians, unlock the knowledge you need to keep your home in top shape. Trust our London-based electricians expertise to solve your electrical problems efficiently and effectively."
         />
       </Head>
       <NavBar />

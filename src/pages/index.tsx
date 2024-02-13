@@ -62,7 +62,7 @@ export default function Home({ posts }: any) {
             updates
           </h1>
           <div className="flex flex-wrap md:flex-row w-full items-center justify-center gap-4 md:gap-2 flex-col">
-            {posts.map((post: any, index: number) => (
+            {posts.slice(0, 3).map((post: any, index: number) => (
               <PostCard post={post} key={index} />
             ))}
           </div>

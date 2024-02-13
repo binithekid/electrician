@@ -13,7 +13,7 @@ const HeroForm = () => {
       >
         <div className="flex flex-col">
           <p className="text-gray-900 text-[13px] md:text-sm">
-            What type of plumbing assistance do you need?
+            What type of Electrical assistance do you need?
           </p>
           <select
             id="worktype"
@@ -144,7 +144,7 @@ const HeroForm = () => {
             name="message"
             // name="email"
             rows={5}
-            placeholder="Tell us about your plumbing issue in as much detail as possible"
+            placeholder="Tell us about your electrical issue in as much detail as possible"
             className="border rounded shadow-sm border-gray-200 py-[4px] md:mt-1 text-[13px] md:text-sm px-2 w-full"
           />
         </div>

@@ -22,23 +22,34 @@ const HeroForm = () => {
             className="border rounded shadow-sm border-gray-200 py-[4px] md:mt-1 text-[13px] md:text-sm px-2 w-full"
           >
             <option value="">Choose an option</option>
-            <option value="emergency">Emergency / 24hr plumber </option>
-            <option value="repair">Plumbing repair and maintenance</option>
-            <option value="boiler/central heating">
-              Boiler/Central heating system
+            <option value="electrical wiring">
+              Electrical wiring installation or repair{" "}
             </option>
-            <option value="plumbing">
-              Plumbing for kitchen, bathroom & other
+            <option value="Outlet or switch replacement">
+              Outlet or switch replacement
             </option>
-            <option value="bathroom installation">Bathroom installation</option>
-            <option value="guttering">Guttering & rainwater pipe</option>
-            <option value="drainage">Drainage</option>
+            <option value="Circuit breaker troubleshooting">
+              Circuit breaker troubleshooting
+            </option>
+            <option value="Lighting fixture installation or repair">
+              Lighting fixture installation or repair
+            </option>
+            <option value="Appliance installation or repair">
+              Appliance installation or repair
+            </option>
+            <option value="Electrical panel upgrade">
+              Electrical panel upgrade
+            </option>
+            <option value="Surge protection installation">
+              Surge protection installation
+            </option>
+            <option value=" Home rewiring"> Home rewiring</option>
             <option value="other">Other</option>
           </select>
         </div>
         <div className="flex flex-col mt-4">
           <p className="text-gray-900 text-[13px] md:text-sm">
-            When would you like the plumber to attend?
+            When would you like the electrician to attend?
           </p>
           <select
             id="assistance"

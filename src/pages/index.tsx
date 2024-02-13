@@ -21,7 +21,7 @@ export default function Home({ posts }: any) {
         <title>Spark Electrics | 24/7 London Electricians</title>
         <meta
           name="description"
-          content="Discover swift and reliable emergency plumbing and heating services in London. Our experienced team is ready to tackle urgent issues with efficiency, ensuring your home stays warm and your plumbing works seamlessly. Trust us for prompt and professional solutions to your emergency heating and plumbing needs in the heart of London"
+          content="Professional electrician services in London, offering expert electrical repairs, installations, and maintenance. Trusted local electricians ready to solve your electrical needs efficiently and safely."
         />
       </Head>
       <main>

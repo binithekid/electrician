@@ -9,7 +9,7 @@ const ChooseUs = () => {
 
   return (
     <div className="px-6 md:px-20 w-full gap-10 bg-white items-center flex flex-col md:flex-row py-20">
-      <div className="w-1/2 flex flex-col gap-8 h-max">
+      <div className="md:w-1/2 flex flex-col gap-4 md:gap-8 h-max">
         <h1 className="text-2xl md:text-4xl font-light text-gray-800">
           Why choose our <span className="font-bold">Electricians</span>
         </h1>
@@ -33,7 +33,7 @@ const ChooseUs = () => {
           BOOK A SAME DAY ELECTRICAL SERVICE
         </button>
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 hidden md:flex">
         <img src={image.src} />
       </div>
     </div>

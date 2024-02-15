@@ -28,7 +28,7 @@ const FAQs = () => {
   };
 
   return (
-    <div className="flex w-full mb-20 md:mt-20 flex-row flex-wrap items-center justify-center">
+    <div className="flex w-full mb-20 mt-20 flex-row flex-wrap items-center justify-center">
       <div className="w-full px-8 flex gap-2 flex-col">
         <h1 className="text-2xl font-bold md:text-4xl pb-1 text-center  text-gray-800">
           Emergency electrical FAQ’s
@@ -37,7 +37,7 @@ const FAQs = () => {
           Some frequently asked questions
         </p>
         <div className="flex items-center justify-center flex-col mt-4 px-0 w-full flex-wrap">
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             {faqItems.map((item, index) => (
               <div key={index}>
                 <p
